@@ -14,7 +14,7 @@ import org.junit.runners.JUnit4;
 import java.util.Date;
 
 @RunWith(JUnit4.class)
-public class PurchaseServiceTests {
+public class PurchaseServiceTest {
     @Test
     public void purchaseItem_ItemAndUserExist_CreditCardCharged() throws Exception {
         // Arrange
